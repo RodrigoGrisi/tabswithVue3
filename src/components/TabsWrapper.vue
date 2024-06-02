@@ -34,21 +34,19 @@ export default {
 
 <style scoped>
 .tabs {
-  max-width: 400px;
-  margin: 0 auto;
+  max-width: 100%;
+  margin: 20px;
 }
 
 .tabs__heeader {
-  margin-bottom: 10px;
+  margin-bottom: 20px;
   list-style: none;
-  padding: 0;
   display: flex;
+  padding: 0;
 }
 
 .tabs__heeader li {
-  width: 80px;
-  text-align: center;
-  padding: 10px 20px;
+  padding: 12px;
   margin-right: 10px;
   background-color: #ddd;
   border-radius: 8px;
@@ -57,7 +55,7 @@ export default {
 }
 
 .tabs__heeader li.selected {
-  background-color: green;
+  background-color: #f77014;
   color: white;
 }
 </style>

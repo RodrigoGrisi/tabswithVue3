@@ -25,7 +25,7 @@ export default {
 <style scoped>
 .sidebar {
   width: 220px;
-  background-color: #f0f0f0; /* Cinza claro */
+  background-color: #433d3d; /* Cinza claro */
   display: flex;
   height: 100vh;
   flex-direction: column;
@@ -39,14 +39,15 @@ export default {
   display: flex;
   align-items: center;
   justify-content: flex-start;
-  color: #333;
+  color: #f77014;
   cursor: pointer;
   transition: background-color 0.3s;
-  gap: 10px;
+  gap: 20px;
 }
 
 .menu-item:hover {
-  background-color: #b0bcc9; /* Azul claro */
+  background-color: #e33c08;
+  color: white; /* Azul claro */
 }
 .menu-item i {
   font-size: 30px;
